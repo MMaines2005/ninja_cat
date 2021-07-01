@@ -13,17 +13,29 @@
     <div>
         <h1>Change the Cat into a Ninja!!!</h1>
     </div>
-    <img src="img/cat0.png" data-alt-src="img/ninja0.png">
+    <!-- <div class="cat"> -->
+    <img src="img/cat0.png"data-alt-src="img/ninja0.png">
     <img src="img/cat1.png" data-alt-src="img/ninja1.png">
     <img src="img/cat2.png" data-alt-src="img/ninja2.png">
     <img src="img/cat3.png" data-alt-src="img/ninja3.png">
     <img src="img/cat4.png" data-alt-src="img/ninja4.png">
+    <!-- </div> -->
+    <!-- <div class="ninja">
+        <img src="img/ninja0.png" data-alt-src="ninja0.png">
+        <img src="img/ninja1.png" data-alt-src="ninja1.png">
+        <img src="img/ninja2.png" data-alt-src="ninja2.png">
+        <img src="img/ninja.png" data-alt-src="ninja3.png">
+        <img src="img/ninja4.png" data-alt-src="ninja4.png">
+    </div> -->
     <script>
         $(document).ready(function(){
+            // $(".ninja").hide("slow");
             $("img").click(function(){
             $(this).attr("src", "data-alt-src");
+
         })
-        })
+    })
+            
     </script>
 </body>
 </html>
